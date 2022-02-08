@@ -53,3 +53,11 @@
     border-collapse: collapse;
     width: 100%;  
   }
+ td, th { 
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #8baad8;
+  }
